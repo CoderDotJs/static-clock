@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(34, 32, 32);
+            color: yellow;
+            text-shadow: 0px 0px 2px rgb(58, 58, 255),
+            0px 0px 4px rgb(58, 58, 255), 0px 0px 5px rgb(58, 58, 255);
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-size: 60px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            height: 100vh;
+        }
+        div{
+            margin: 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+        <div><span id="hour">0</span></div>
+        <span>:</span>
+        <div><span id="minute">10</span></div>
+        <span>:</span>
+        <div><span id="second">10</span></div>
+        <div><span id="amPm">AM</span></div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
